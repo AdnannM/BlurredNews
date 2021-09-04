@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A633D1ED26E38B2E009211F8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633D1EC26E38B2E009211F8 /* LocalAuthentication.framework */; };
 		A644EBF926E1FF05003DC9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644EBF826E1FF05003DC9E5 /* AppDelegate.swift */; };
 		A644EBFB26E1FF05003DC9E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644EBFA26E1FF05003DC9E5 /* SceneDelegate.swift */; };
 		A644EBFD26E1FF05003DC9E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644EBFC26E1FF05003DC9E5 /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A633D1EC26E38B2E009211F8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		A644EBF526E1FF05003DC9E5 /* BlurredNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurredNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A644EBF826E1FF05003DC9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A644EBFA26E1FF05003DC9E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A633D1ED26E38B2E009211F8 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A633D1EB26E38B2E009211F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A633D1EC26E38B2E009211F8 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A644EBEC26E1FF05003DC9E5 = {
 			isa = PBXGroup;
 			children = (
 				A644EBF726E1FF05003DC9E5 /* BlurredNews */,
 				A644EBF626E1FF05003DC9E5 /* Products */,
+				A633D1EB26E38B2E009211F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
